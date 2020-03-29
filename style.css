@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/Backgrounds/night.jpg"), linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.greeting {
+    height: 14%;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.greeting h1{
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.25em;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    width: 25%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+    /* border: 1px solid white; */
+}
+
+.search input{
+    background-image: url('images/search.png');
+    background-size: 4%;
+    background-position-y: center;
+    background-position-x: 10px ;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    border: 0px;
+    height: 50%;
+    width: 75%;
+    padding-left: 30px;
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+    outline: none;
+}
+
+.centerBox {
+    width: 22%;
+    height: 35%;
+    margin-top: 2%;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+    background-blend-mode: color-burn;
+    border-radius: 20px;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time{
+    width: 100%;
+    justify-content: center;
+}
+
+.time h1{
+    font-weight: 00;
+    font-size: 4em;
+    letter-spacing: 4px;
+    margin: 0 0;
+    margin-left: 20px;
+    /* border: 1px solid white; */
+}
+
+.time p{
+    margin-left: 5px;
+    font-weight: 300;
+
+}
+
+.centerBox h3 {
+    line-height: 1.5em;
+    margin: 1px 0;
+    font-size: 1.05em;
+    font-weight: 300;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+
+    width: 30%;
+    height: 13%;
+}
+
+.circle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin: 2px 20px;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+    background-blend-mode: color-burn;
+
+}
+
+.circle a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img{
+    filter: invert();
+    max-width: 60%;
+}
+
+.quote-daily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 8%;
+    /* border: 2px solid white; */
+}
+
+.quote-daily h3 {
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    letter-spacing: 1.1px;
+    margin-top: 5%;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, rgba(0, 0, 0, .8));
+}
+
+
+.centerSub #weekday, .centerSub #city{
+    font-weight: 500;
+}
